@@ -21,6 +21,7 @@ GitHub Pages에 올려 쓰는 개인 재테크 데일리 대시보드입니다.
 별도 유료 API나 API Key 없이 구성
 
 • API Key 없음
+
 • 네이버 금융의 공개 시세·차트 데이터를 활용
   - 국내 ETF 현재가 및 과거 시세
   - KOSPI, KOSDAQ
