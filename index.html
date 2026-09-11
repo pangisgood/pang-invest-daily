@@ -203,6 +203,8 @@
     window.addEventListener('resize',()=>document.querySelectorAll('canvas[data-code]').forEach(c=>drawSpark(c,DATA.etfs[c.dataset.code]?.history)));
     if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
     load();
-  </script>
+  </script> 
+
+  <script src="./ocr.js?v=2"></script>
 </body>
 </html>
