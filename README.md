@@ -18,12 +18,63 @@ GitHub Pages에 올려 쓰는 개인 재테크 데일리 대시보드입니다.
 시장 지표: USD/KRW, 100JPY/KRW(파생계산), S&P500, NASDAQ, PHLX 반도체, KOSPI, KOSDAQ, 금, 은, Hang Seng TECH.
 
 ## 핵심 구조
+별도 유료 API나 API Key 없이 구성
+• API Key 없음
+• 네이버 금융의 공개 시세·차트 데이터를 활용
+  - 국내 ETF 현재가 및 과거 시세
+  - KOSPI, KOSDAQ
+  - S&P500, NASDAQ, PHLX 반도체 등 주요 해외지수
+  - 원달러 환율, 금, 은 등 주요 시장지표
+• Python의 update_data.py가 데이터를 수집하고 가공
+  - 현재가
+  - 1일, 7일, 30일 변화율
+  - 최근 가격 이력
+  - 종목별 기본 정보
+  등을 계산해서 data.json으로 저장
+• GitHub Actions가 update_data.py를 정기적으로 자동 실행
+  - 수동 실행 가능
+  - 정해진 시간에 자동 실행
+  - data.json이 갱신되면 GitHub에 자동 Commit
+• GitHub Pages의 index.html이 data.json을 읽어서 화면 구성
+  - 현재가
+  - 1D / 7D / 30D 변화율
+  - 최근 가격 추이 그래프
+  - 시장지표
+  - 내 보유자산과 연결한 ‘오늘 체크’ 영역 표시
+• 보유수량과 평균단가는 localStorage에만 저장
+  - Public GitHub Repository에는 개인 자산정보를 넣지 않음
+  - 현재 사용 중인 브라우저에만 저장
+  - 이를 바탕으로 평가금액, 손익, 수익률 계산 가능
+• manifest + service worker 적용
+  - 휴대폰 홈 화면에 추가 가능
+  - 일반 앱처럼 바로 실행 가능
+  - 단, 수정 배포 후 이전 파일이 캐시에 남을 수 있어 캐시 갱신도 고려 필요
 
-- API Key 없음
-- GitHub Actions가 Yahoo Finance 공개 chart endpoint에서 데이터를 받아 `data.json`을 갱신
-- 한국시간 평일 오전 7:10 / 오후 4:10 업데이트 예약
-- 보유수량·평균단가는 `localStorage`에만 저장 → 공개 GitHub 코드에 개인 자산정보를 넣지 않음
-- 홈 화면 추가용 manifest + service worker 포함
+
+[전체 흐름]
+네이버 금융 공개 데이터
+        ↓
+Python update_data.py
+데이터 수집·계산
+        ↓
+data.json 생성
+        ↑
+GitHub Actions
+정기 자동 실행
+        ↓
+GitHub Repository
+        ↓
+GitHub Pages
+        ↓
+HTML + JavaScript
+        ↓
+PANG INVEST DAILY
+
+보유수량·평균단가
+        ↓
+localStorage
+        ↓
+현재 브라우저에만 저장
 
 ## 배포
 
