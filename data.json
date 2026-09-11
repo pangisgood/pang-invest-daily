@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-09-11T06:24:43.848766+00:00",
+  "generated_at": "2026-09-11T12:10:55.815432+00:00",
   "markets": {
     "usdkrw": {
       "symbol": "FX_USDKRW",
-      "price": 1345.6,
-      "day_pct": -0.4,
+      "price": 1343.1,
+      "day_pct": -0.58,
       "week_pct": null,
       "month_pct": null,
-      "year_low": 1345.6,
-      "year_high": 1345.6,
+      "year_low": 1343.1,
+      "year_high": 1343.1,
       "history": [
         {
           "date": "2026-09-11",
-          "close": 1345.6
+          "close": 1343.1
         }
       ],
-      "source_updated_at": "2026-09-11T06:24:44.616913+00:00",
+      "source_updated_at": "2026-09-11T12:10:57.206655+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "USD/KRW",
@@ -1155,10 +1155,10 @@
     },
     "kospi": {
       "symbol": "KOSPI",
-      "price": 6910.9,
-      "day_pct": -1.7489536417815477,
-      "week_pct": 3.345042252299524,
-      "month_pct": 5.044200977650237,
+      "price": 6909.91,
+      "day_pct": -1.7630282971657363,
+      "week_pct": 3.3302378719974435,
+      "month_pct": 5.029153189523083,
       "year_low": 5377.3,
       "year_high": 9114.55,
       "history": [
@@ -1520,7 +1520,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 6910.9
+          "close": 6909.91
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -1532,10 +1532,10 @@
     },
     "kosdaq": {
       "symbol": "KOSDAQ",
-      "price": 820.28,
-      "day_pct": -1.9882426038331014,
-      "week_pct": 0.8334357713583262,
-      "month_pct": -4.497560862022798,
+      "price": 820.64,
+      "day_pct": -1.9452277398078643,
+      "week_pct": 0.8776889981561231,
+      "month_pct": -4.455647273870367,
       "year_low": 644.78,
       "year_high": 1226.18,
       "history": [
@@ -1897,7 +1897,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 820.28
+          "close": 820.64
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -1909,19 +1909,19 @@
     },
     "gold": {
       "symbol": "GCcv1",
-      "price": 4399.1,
-      "day_pct": -0.19,
+      "price": 4375.5,
+      "day_pct": -0.72,
       "week_pct": null,
       "month_pct": null,
-      "year_low": 4399.1,
-      "year_high": 4399.1,
+      "year_low": 4375.5,
+      "year_high": 4375.5,
       "history": [
         {
           "date": "2026-09-11",
-          "close": 4399.1
+          "close": 4375.5
         }
       ],
-      "source_updated_at": "2026-09-11T06:24:48.726779+00:00",
+      "source_updated_at": "2026-09-11T12:11:02.453913+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Gold",
@@ -1930,19 +1930,19 @@
     },
     "silver": {
       "symbol": "SIcv1",
-      "price": 64.65,
-      "day_pct": -0.43,
+      "price": 64.39,
+      "day_pct": -0.83,
       "week_pct": null,
       "month_pct": null,
-      "year_low": 64.65,
-      "year_high": 64.65,
+      "year_low": 64.39,
+      "year_high": 64.39,
       "history": [
         {
           "date": "2026-09-11",
-          "close": 64.65
+          "close": 64.39
         }
       ],
-      "source_updated_at": "2026-09-11T06:24:48.726824+00:00",
+      "source_updated_at": "2026-09-11T12:11:02.453957+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Silver",
@@ -1968,10 +1968,10 @@
   "etfs": {
     "381180": {
       "symbol": "381180",
-      "price": 40815.0,
-      "day_pct": -1.3892244503503237,
-      "week_pct": 1.2025787255145026,
-      "month_pct": -9.340293203020877,
+      "price": 40820.0,
+      "day_pct": -1.3771442377385812,
+      "week_pct": 1.214976444334237,
+      "month_pct": -9.329187027987562,
       "year_low": 30686.0,
       "year_high": 57751.0,
       "history": [
@@ -2333,7 +2333,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 40815.0
+          "close": 40820.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -2346,10 +2346,10 @@
     },
     "458730": {
       "symbol": "458730",
-      "price": 14490.0,
-      "day_pct": 0.31152647975076775,
-      "week_pct": -3.17407283661878,
-      "month_pct": -5.386875612144959,
+      "price": 14500.0,
+      "day_pct": 0.3807545863620643,
+      "week_pct": -3.107250250584692,
+      "month_pct": -5.321580150179561,
       "year_low": 14220.0,
       "year_high": 15767.0,
       "history": [
@@ -2711,7 +2711,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 14490.0
+          "close": 14500.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -3858,10 +3858,10 @@
     },
     "0041E0": {
       "symbol": "0041E0",
-      "price": 15540.0,
-      "day_pct": -0.4803073967339144,
-      "week_pct": -1.8629617934954212,
-      "month_pct": -6.834532374100721,
+      "price": 15560.0,
+      "day_pct": -0.352225424271535,
+      "week_pct": -1.7366592990211593,
+      "month_pct": -6.714628297362113,
       "year_low": 14155.0,
       "year_high": 19056.0,
       "history": [
@@ -4223,7 +4223,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 15540.0
+          "close": 15560.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -4236,10 +4236,10 @@
     },
     "0066W0": {
       "symbol": "0066W0",
-      "price": 12410.0,
-      "day_pct": -0.7993605115907298,
-      "week_pct": -2.8951486697965545,
-      "month_pct": -5.770690964312831,
+      "price": 12405.0,
+      "day_pct": -0.8393285371702586,
+      "week_pct": -2.934272300469487,
+      "month_pct": -5.808656036446469,
       "year_low": 12285.0,
       "year_high": 15055.0,
       "history": [
@@ -4601,7 +4601,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 12410.0
+          "close": 12405.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -4992,10 +4992,10 @@
     },
     "0043Y0": {
       "symbol": "0043Y0",
-      "price": 18700.0,
-      "day_pct": -1.449275362318836,
-      "week_pct": -2.629523561572511,
-      "month_pct": -12.391660810494265,
+      "price": 18690.0,
+      "day_pct": -1.5019762845849827,
+      "week_pct": -2.681593335068988,
+      "month_pct": -12.438510189739983,
       "year_low": 16100.0,
       "year_high": 28885.0,
       "history": [
@@ -5357,7 +5357,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 18700.0
+          "close": 18690.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -5370,10 +5370,10 @@
     },
     "0172V0": {
       "symbol": "0172V0",
-      "price": 8115.0,
-      "day_pct": -4.865181711606093,
-      "week_pct": -4.360636417206831,
-      "month_pct": -7.151029748283754,
+      "price": 8125.0,
+      "day_pct": -4.747948417350523,
+      "week_pct": -4.242781378903948,
+      "month_pct": -7.036613272311209,
       "year_low": 7745.0,
       "year_high": 12270.0,
       "history": [
@@ -5735,7 +5735,7 @@
         },
         {
           "date": "2026-09-11",
-          "close": 8115.0
+          "close": 8125.0
         }
       ],
       "source_updated_at": "2026-09-11",
@@ -5750,9 +5750,9 @@
   "derived": {
     "jpykrw100": {
       "name": "100 JPY/KRW",
-      "price": 873.57,
+      "price": 871.8,
       "unit": "원",
-      "day_pct": -0.17
+      "day_pct": -0.38
     }
   },
   "manual_funds": [
