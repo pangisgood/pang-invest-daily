@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T00:28:19.338639+00:00",
+  "generated_at": "2026-09-24T12:41:50.053404+00:00",
   "markets": {
     "usdkrw": {
       "symbol": "FX_USDKRW",
@@ -51,7 +51,7 @@
           "close": 1366.7
         }
       ],
-      "source_updated_at": "2026-09-24T00:28:20.527217+00:00",
+      "source_updated_at": "2026-09-24T12:41:51.336546+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "USD/KRW",
@@ -1945,11 +1945,11 @@
     },
     "gold": {
       "symbol": "GCcv1",
-      "price": 4323.4,
-      "day_pct": 0.12,
-      "week_pct": -2.028144757415762,
+      "price": 4305.9,
+      "day_pct": -0.29,
+      "week_pct": -2.424709374787559,
       "month_pct": null,
-      "year_low": 4315.3,
+      "year_low": 4305.9,
       "year_high": 4419.2,
       "history": [
         {
@@ -1990,10 +1990,10 @@
         },
         {
           "date": "2026-09-24",
-          "close": 4323.4
+          "close": 4305.9
         }
       ],
-      "source_updated_at": "2026-09-24T00:28:25.973090+00:00",
+      "source_updated_at": "2026-09-24T12:41:57.108528+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Gold",
@@ -2002,9 +2002,9 @@
     },
     "silver": {
       "symbol": "SIcv1",
-      "price": 64.63,
-      "day_pct": -0.51,
-      "week_pct": -2.0460745680509373,
+      "price": 64.14,
+      "day_pct": -1.28,
+      "week_pct": -2.7887238557138594,
       "month_pct": null,
       "year_low": 63.53,
       "year_high": 67.43,
@@ -2047,10 +2047,10 @@
         },
         {
           "date": "2026-09-24",
-          "close": 64.63
+          "close": 64.14
         }
       ],
-      "source_updated_at": "2026-09-24T00:28:25.973161+00:00",
+      "source_updated_at": "2026-09-24T12:41:57.108641+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Silver",
