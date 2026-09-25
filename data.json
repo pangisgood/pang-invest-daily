@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-25T00:31:46.444795+00:00",
+  "generated_at": "2026-09-25T12:44:06.119617+00:00",
   "markets": {
     "usdkrw": {
       "symbol": "FX_USDKRW",
-      "price": 1366.7,
-      "day_pct": 0.83,
-      "week_pct": -1.5558596845062223,
+      "price": 1357.5,
+      "day_pct": 0.15,
+      "week_pct": -2.2185406612403646,
       "month_pct": null,
       "year_low": 1343.1,
       "year_high": 1388.3,
@@ -52,10 +52,10 @@
         },
         {
           "date": "2026-09-25",
-          "close": 1366.7
+          "close": 1357.5
         }
       ],
-      "source_updated_at": "2026-09-25T00:31:47.437679+00:00",
+      "source_updated_at": "2026-09-25T12:44:07.102862+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "USD/KRW",
@@ -1949,11 +1949,11 @@
     },
     "gold": {
       "symbol": "GCcv1",
-      "price": 4301.8,
-      "day_pct": 0.09,
-      "week_pct": -2.6565894279507507,
+      "price": 4337.6,
+      "day_pct": 0.92,
+      "week_pct": -1.8464880521361193,
       "month_pct": null,
-      "year_low": 4301.8,
+      "year_low": 4305.9,
       "year_high": 4419.2,
       "history": [
         {
@@ -1998,10 +1998,10 @@
         },
         {
           "date": "2026-09-25",
-          "close": 4301.8
+          "close": 4337.6
         }
       ],
-      "source_updated_at": "2026-09-25T00:31:52.195651+00:00",
+      "source_updated_at": "2026-09-25T12:44:11.888704+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Gold",
@@ -2010,9 +2010,9 @@
     },
     "silver": {
       "symbol": "SIcv1",
-      "price": 64.12,
-      "day_pct": 0.18,
-      "week_pct": -4.908794305205399,
+      "price": 65.24,
+      "day_pct": 1.93,
+      "week_pct": -3.247812546344375,
       "month_pct": null,
       "year_low": 63.53,
       "year_high": 67.43,
@@ -2059,10 +2059,10 @@
         },
         {
           "date": "2026-09-25",
-          "close": 64.12
+          "close": 65.24
         }
       ],
-      "source_updated_at": "2026-09-25T00:31:52.195746+00:00",
+      "source_updated_at": "2026-09-25T12:44:11.888754+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Silver",
@@ -5870,9 +5870,9 @@
   "derived": {
     "jpykrw100": {
       "name": "100 JPY/KRW",
-      "price": 863.44,
+      "price": 860.48,
       "unit": "원",
-      "day_pct": 0.29
+      "day_pct": -0.05
     }
   },
   "manual_funds": [
