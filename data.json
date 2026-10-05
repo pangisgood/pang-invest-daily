@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-05T00:53:08.586824+00:00",
+  "generated_at": "2026-10-05T15:57:04.237378+00:00",
   "markets": {
     "usdkrw": {
       "symbol": "FX_USDKRW",
-      "price": 1347.0,
-      "day_pct": -0.92,
-      "week_pct": -1.1085823360986624,
+      "price": 1342.5,
+      "day_pct": -1.25,
+      "week_pct": -1.4389545554658212,
       "month_pct": null,
-      "year_low": 1343.1,
+      "year_low": 1342.5,
       "year_high": 1388.3,
       "history": [
         {
@@ -76,10 +76,10 @@
         },
         {
           "date": "2026-10-05",
-          "close": 1347.0
+          "close": 1342.5
         }
       ],
-      "source_updated_at": "2026-10-05T00:53:09.515059+00:00",
+      "source_updated_at": "2026-10-05T15:57:05.073510+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "USD/KRW",
@@ -88,17 +88,13 @@
     },
     "sp500": {
       "symbol": ".INX",
-      "price": 7722.72,
-      "day_pct": 0.7339772645748699,
-      "week_pct": -0.2671949438296517,
-      "month_pct": 0.7320063652727304,
+      "price": 7762.29,
+      "day_pct": 0.5123842376779209,
+      "week_pct": 1.0229460064109963,
+      "month_pct": 0.5660352913740674,
       "year_low": 7135.95,
       "year_high": 7798.99,
       "history": [
-        {
-          "date": "2026-05-27",
-          "close": 7520.36
-        },
         {
           "date": "2026-05-28",
           "close": 7563.63
@@ -454,9 +450,13 @@
         {
           "date": "2026-10-02",
           "close": 7722.72
+        },
+        {
+          "date": "2026-10-05",
+          "close": 7762.29
         }
       ],
-      "source_updated_at": "2026-10-02",
+      "source_updated_at": "2026-10-05",
       "fresh": true,
       "source": "NAVER",
       "name": "S&P 500",
@@ -465,17 +465,13 @@
     },
     "nasdaq": {
       "symbol": ".IXIC",
-      "price": 27190.864,
-      "day_pct": 1.188128207499406,
-      "week_pct": 0.4512515480970869,
-      "month_pct": 3.711352443078053,
+      "price": 27401.171,
+      "day_pct": 0.7734472872947151,
+      "week_pct": 2.1654800504138816,
+      "month_pct": 3.3733781164892562,
       "year_low": 24442.942,
-      "year_high": 27244.278,
+      "year_high": 27401.171,
       "history": [
-        {
-          "date": "2026-05-27",
-          "close": 26674.735
-        },
         {
           "date": "2026-05-28",
           "close": 26917.471
@@ -831,9 +827,13 @@
         {
           "date": "2026-10-02",
           "close": 27190.864
+        },
+        {
+          "date": "2026-10-05",
+          "close": 27401.171
         }
       ],
-      "source_updated_at": "2026-10-02",
+      "source_updated_at": "2026-10-05",
       "fresh": true,
       "source": "NAVER",
       "name": "NASDAQ",
@@ -842,17 +842,13 @@
     },
     "sox": {
       "symbol": ".SOX",
-      "price": 13136.675,
-      "day_pct": 2.3982773404006563,
-      "week_pct": 3.6920721554284386,
-      "month_pct": 15.85131614478341,
-      "year_low": 10035.578,
+      "price": 13130.356,
+      "day_pct": -0.04810197405354932,
+      "week_pct": 5.335748796533579,
+      "month_pct": 11.888051583339166,
+      "year_low": 10271.298,
       "year_high": 14634.722,
       "history": [
-        {
-          "date": "2026-05-27",
-          "close": 12702.189
-        },
         {
           "date": "2026-05-28",
           "close": 12829.143
@@ -1208,9 +1204,13 @@
         {
           "date": "2026-10-02",
           "close": 13136.675
+        },
+        {
+          "date": "2026-10-05",
+          "close": 13130.356
         }
       ],
-      "source_updated_at": "2026-10-02",
+      "source_updated_at": "2026-10-05",
       "fresh": true,
       "source": "NAVER",
       "name": "PHLX 반도체",
@@ -1973,9 +1973,9 @@
     },
     "gold": {
       "symbol": "GCcv1",
-      "price": 4179.6,
-      "day_pct": 0.42,
-      "week_pct": 0.6768637841743974,
+      "price": 4162.6,
+      "day_pct": 0.01,
+      "week_pct": 0.2673732385884753,
       "month_pct": null,
       "year_low": 4151.5,
       "year_high": 4419.2,
@@ -2046,10 +2046,10 @@
         },
         {
           "date": "2026-10-05",
-          "close": 4179.6
+          "close": 4162.6
         }
       ],
-      "source_updated_at": "2026-10-05T00:53:13.277089+00:00",
+      "source_updated_at": "2026-10-05T15:57:08.899246+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Gold",
@@ -2058,9 +2058,9 @@
     },
     "silver": {
       "symbol": "SIcv1",
-      "price": 61.43,
-      "day_pct": 1.68,
-      "week_pct": 0.09776763891151674,
+      "price": 61.46,
+      "day_pct": 1.73,
+      "week_pct": 0.1466514583672751,
       "month_pct": null,
       "year_low": 61.19,
       "year_high": 67.43,
@@ -2131,10 +2131,10 @@
         },
         {
           "date": "2026-10-05",
-          "close": 61.43
+          "close": 61.46
         }
       ],
-      "source_updated_at": "2026-10-05T00:53:13.277173+00:00",
+      "source_updated_at": "2026-10-05T15:57:08.899339+00:00",
       "fresh": true,
       "source": "NAVER",
       "name": "Silver",
@@ -5942,9 +5942,9 @@
   "derived": {
     "jpykrw100": {
       "name": "100 JPY/KRW",
-      "price": 853.69,
+      "price": 849.58,
       "unit": "원",
-      "day_pct": -0.75
+      "day_pct": -1.23
     }
   },
   "manual_funds": [
